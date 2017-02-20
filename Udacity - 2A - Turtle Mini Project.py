@@ -154,6 +154,7 @@ def draw_kc():
     k.forward(100)
     k.right(90)
     k.forward(50)
+    window.exitonclick()
 
 
 #To draw the flower, execute draw_flower()
