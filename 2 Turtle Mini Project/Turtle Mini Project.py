@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
 
+"""
+@author: Andreas Spielhofer
+"""
+
 import turtle
 import numpy as _n
 
