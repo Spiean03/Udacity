@@ -21,8 +21,7 @@ def draw_square(some_turtle):
     for i in range(1,5):
         some_turtle.forward(100)
         some_turtle.right(90)
-    
-    
+        
 def draw_art():
     window = turtle.Screen()
     window.bgcolor("red")
@@ -59,7 +58,7 @@ def draw_circle_from_squares(size,number_of_squares):
     window.exitonclick()
 
 
-def draw_flower():
+def draw_flower(): #This code draws the flower
     window =turtle.Screen()
     window.bgcolor("white")
 
@@ -113,7 +112,7 @@ def draw_largerModule(some_turtle3,headvalue,posvalue):
         some_turtle3.pendown()
         draw_oneset(some_turtle3)
     
-def draw_mainShape():
+def draw_mainShape():   # this code draws the green triangles
     window = turtle.Screen()
     window.bgcolor = 'white'        
     basicTurtle = turtle.Turtle('turtle')
@@ -129,5 +128,6 @@ def draw_mainShape():
         draw_largerModule(basicTurtle,newhead,newpos)
     window.exitonclick()      
 
-#draw_flower()
-#draw_mainShape()
+
+#To draw the flower, execute draw_flower()
+#To draw the green triangles, execute draw_mainShape()
