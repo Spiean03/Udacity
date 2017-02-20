@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Feb 19 15:08:45 2017
-
-@author: Administrator
+@author: Andreas Spielhofer
 """
 
 import webbrowser
