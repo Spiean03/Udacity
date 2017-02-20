@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import turtle
+import numpy as _n
 
 def draw_figure(number_of_edges):
     number_of_degrees= (number_of_edges-2)*180
@@ -126,8 +127,35 @@ def draw_mainShape():   # this code draws the green triangles
         newpos = basicTurtle.pos()
         newhead = basicTurtle.heading()
         draw_largerModule(basicTurtle,newhead,newpos)
-    window.exitonclick()      
+    window.exitonclick()     
+    
+def draw_kc():
+    window = turtle.Screen()
+    window.bgcolor = 'white'        
+    k = turtle.Turtle('turtle')
+    k.speed(10)
+    k.color('blue')
+    k.left(90)
+    k.forward(100)
+    k.backward(50)
+    k.right(45)
+    k.forward(int(100/_n.sqrt(2)))
+    k.backward(int(100/_n.sqrt(2)))
+    k.right(90)
+    k.forward(int(100/_n.sqrt(2)))
+    print k.position()
+    k.color(window.bgcolor)
+    k.goto(99.50,0.50)
+    k.color("blue")
+    k.left(45)
+    k.forward(50)
+    k.backward(50)
+    k.left(90)
+    k.forward(100)
+    k.right(90)
+    k.forward(50)
 
 
 #To draw the flower, execute draw_flower()
 #To draw the green triangles, execute draw_mainShape()
+#To draw the KC logo, execute draw_kc. Important note: I've added the sqrt from numpy, so you need to add square root function from numpy (import numpy as _n)
