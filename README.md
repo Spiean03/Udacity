@@ -1,4 +1,4 @@
-# Udacity---Solutions
+# Udacity
 Udacity Programming Foundations with Python, some codes to compare 
 google style guide for python
 
