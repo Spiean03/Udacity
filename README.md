@@ -27,4 +27,4 @@ Compare a file, email,..., if you accidentally have used curses in your text usi
 
 5 Movie Database
 ================
-Generated website to load movie name, images, trailer from csv file. 
+Generated website to load movie name, images, trailer from csv file. Run fresh_tomatoes.py to generate the website.
